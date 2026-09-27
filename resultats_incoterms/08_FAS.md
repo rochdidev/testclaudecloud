@@ -1,4 +1,4 @@
-# بطاقة عملية: FAS – التسليم بجانب السفينة (Free Alongside Ship)
+# Incoterms – بطاقة عملية: FAS – التسليم بجانب السفينة (Free Alongside Ship)
 **الإصدار: Incoterms® 2020 | للنقل البحري والنهري فقط**
 
 ## التعريف

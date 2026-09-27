@@ -1,4 +1,4 @@
-# بطاقة عملية: CIF – التكلفة والتأمين وأجرة الشحن (Cost, Insurance and Freight)
+# Incoterms – بطاقة عملية: CIF – التكلفة والتأمين وأجرة الشحن (Cost, Insurance and Freight)
 **الإصدار: Incoterms® 2020 | للنقل البحري والنهري فقط**
 
 ## التعريف

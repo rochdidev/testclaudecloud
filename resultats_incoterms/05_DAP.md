@@ -1,4 +1,4 @@
-# بطاقة عملية: DAP – التسليم في المكان (Delivered at Place)
+# Incoterms – بطاقة عملية: DAP – التسليم في المكان (Delivered at Place)
 **الإصدار: Incoterms® 2020 | لجميع وسائل النقل**
 
 ## التعريف

@@ -1,4 +1,4 @@
-# بطاقة عملية: DPU – التسليم في المكان مفرّغًا (Delivered at Place Unloaded)
+# Incoterms – بطاقة عملية: DPU – التسليم في المكان مفرّغًا (Delivered at Place Unloaded)
 **الإصدار: Incoterms® 2020 | لجميع وسائل النقل**
 
 ## التعريف

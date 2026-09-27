@@ -1,4 +1,4 @@
-# بطاقة عملية: DDP – التسليم مع دفع الرسوم (Delivered Duty Paid)
+# Incoterms – بطاقة عملية: DDP – التسليم مع دفع الرسوم (Delivered Duty Paid)
 **الإصدار: Incoterms® 2020 | لجميع وسائل النقل**
 
 ## التعريف

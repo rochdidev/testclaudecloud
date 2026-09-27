@@ -1,4 +1,4 @@
-# بطاقة عملية: CIP – أجرة النقل والتأمين مدفوعان إلى (Carriage and Insurance Paid To)
+# Incoterms – بطاقة عملية: CIP – أجرة النقل والتأمين مدفوعان إلى (Carriage and Insurance Paid To)
 **الإصدار: Incoterms® 2020 | لجميع وسائل النقل**
 
 ## التعريف
