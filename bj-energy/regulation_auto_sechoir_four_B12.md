@@ -237,5 +237,21 @@ Règle : le four ne monte la récupération que si ses contraintes F4 le permett
 - Emplacement du capteur de pression supplémentaire acheté le 06/10 (proposition : gaine de récupération côté séchoir).
 - Tables fc0/fr0/fe0/T1_base : à recaler sur deux semaines d'archives une fois FB100 validé.
 
-## 5. Sources
-Mémoire projet « memoire_claude_briqueterie.md » (sections 1 à 10) ; « Régulation four / récupération / séchoir (version révisée) » du 30/09/2026 ; synoptiques four et séchoir du 28/09/2026 ; relevés WinCC du 02/10 au 16/10/2026 ; vidéos du 14/10 (poussée four) et du 16/10 (synoptiques), telles que transcrites dans la mémoire ; audit énergétique CRA2E/ANME 2016.
+## 5. Observations tirées des deux vidéos fournies (images extraites le 17/10/2026)
+
+**Vidéo 2 — page SECHOIR et page paramètres, 16/10/2026 de 16:51:13 à 16:52:01 (utilisateur medali)**
+- ASC en mode **AUTO (HUMIDITÉ)** à ce moment-là : PV 112–113 °C, SP 111 °C ; paramètres : MANU 120 °C / chambre 127 °C ; AUTO : brûleur max 120 / min 110 °C, humidité recyclage max 34 / min 29 %, temps d'incrémentation et de décrémentation 1 s. C'est donc un pilotage tout-ou-peu de la consigne (110 ↔ 120 °C au rythme de 1 °C/s selon H_R), que L1/L2 remplacent par une consigne continue calculée sur H_AR.
+- **Zone avant recyclage 74,5–75,8 °C / 13,8–14,5 %** (bornes affichées max 13 / min 9) : la limite de 14 % est atteinte avec l'air chaud à 43 Hz et l'ASC à 112 °C seulement → c'est exactement le cas où L1 doit relever T1_SP et L3 fc (qualité avant économie).
+- Zone recyclage 32,7–33,6 % / 60,5 °C (bande 29–34) ; RECY 43 → 41 Hz ; air chaud SP 43 Hz ; extraction : colonne AUTO 30 Hz, colonne MANUEL 44 Hz, bornes 39–45 Hz.
+- TC3 153–156 °C ; T°C4 **155 → 187 °C** en 40 s (pompage de la chambre de mélange déjà noté le 16/10) ; TC2 33–40 °C ; P2 2,8–4,1 mbar ; P3 −0,40 à −0,69 mbar ; P4 figé −1,18 ; P1 0,00.
+- B1/B2 en AUTO, B2-REMOTE / B1-REMOTE, brûleur à point PV 55–56 °C (max 80 / min 70) ; brûleur 2 LOCAL, PV 0,0, SP 119.
+- Registres : récupération AUT, chambre MAN, arrière séchoir MAN, brûleur AUT, port chambre MAN ; « valeur différence entre chambre et brûleur » = 0 ; consigne température arrière 85 °C.
+
+**Vidéo 1 — gros plan filmé sur l'écran SECHOIR, 68 s, sans horodatage visible (réglage différent du 16/10 16:51)**
+- Zone avant recyclage **91,5–91,8 °C / 8,0–8,7 %** avec bornes max 9 / min 5 % : séchage plus poussé que nécessaire (12 % suffisent), donc gaz dépensé au-delà du besoin → cas inverse du précédent, que L1 corrige en baissant T1_SP.
+- ASC AUTO (HUMIDITÉ), PV 115 → 120 °C, SP 111 → 112 °C.
+- **P3 positif (+0,14 à +0,24 mbar)** alors qu'il est négatif les autres jours (−0,1 à −0,7) : canal inférieur en surpression → extraction trop faible ou recyclage trop fort à ce moment ; garde-fou L5 (P3 > +0,2 mbar pendant 2 min → fe +2 Hz).
+- Ces deux vidéos ne contiennent pas de page FOUR ; la vidéo de la poussée four du 14/10 citée dans la mémoire n'est pas parmi les fichiers fournis.
+
+## 6. Sources
+Mémoire projet « memoire_claude_briqueterie.md » (sections 1 à 10) ; « Régulation four / récupération / séchoir (version révisée) » du 30/09/2026 ; synoptiques four et séchoir du 28/09/2026 ; relevés WinCC du 02/10 au 16/10/2026 ; les deux vidéos fournies (images extraites, section 5) ; audit énergétique CRA2E/ANME 2016.
