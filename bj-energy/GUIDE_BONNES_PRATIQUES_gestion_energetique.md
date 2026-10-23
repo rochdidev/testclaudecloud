@@ -1,6 +1,17 @@
-# Guide des bonnes pratiques — gestion énergétique d'une briqueterie (séchoir, four, électricité)
+# BRIQUETERIE JEMMEL
+## Guide des bonnes pratiques de gestion énergétique
+### Séchoir, four, électricité
 
-**Briqueterie Jemmel — BJ Energy — guide établi le 23/10/2026 à partir du projet de régulation B12, de l'audit 2016 et des règles générales de l'efficacité énergétique industrielle**
+**Document interne de la société Briqueterie Jemmel** — Zone industrielle, route de Zeramdine, Jemmel, gouvernorat de Monastir
+Édition 1 — 23 octobre 2026 — établie dans le cadre du projet de régulation du séchoir et du four (produit B12)
+
+| | |
+|---|---|
+| **Émetteur** | Briqueterie Jemmel — Direction technique |
+| **Destinataires** | Direction, chefs de four et de séchoir, électricien-automaticien, responsable qualité, chefs de poste |
+| **Objet** | Règles de conduite, de réglage et de suivi pour baisser le gaz et l'électricité à cadence et qualité égales |
+| **Documents liés** | Projet de régulation B12 V1 du 19/10/2026 et son annexe programmes ; dossier consolidé du 23/10/2026 ; audit énergétique 2016 |
+| **Révision** | Document vivant, mis à jour après chaque essai et chaque palier |
 
 ---
 
@@ -317,4 +328,4 @@ Chaque section se termine par des règles numérotées. Les check-lists de la se
 
 ---
 
-*Ce guide est un document vivant : il se met à jour après chaque essai et chaque palier, avec les valeurs mesurées sur l'installation.*
+*Briqueterie Jemmel — Guide des bonnes pratiques de gestion énergétique, édition 1 du 23/10/2026. Document vivant : il se met à jour après chaque essai et chaque palier, avec les valeurs mesurées sur l'installation. Toute modification est validée par la direction technique.*
